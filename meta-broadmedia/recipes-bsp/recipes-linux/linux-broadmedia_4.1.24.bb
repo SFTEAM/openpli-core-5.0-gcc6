@@ -35,11 +35,11 @@ SRC_URI += "http://source.mynonpublic.com/broadmedia/broadmedia-linux-${PV}-${SR
     "
 
 S = "${WORKDIR}/linux-${PV}"
-B = "${WORKDIR}/build"
 
 export OS = "Linux"
 KERNEL_OBJECT_SUFFIX = "ko"
 KERNEL_OUTPUT = "vmlinux"
+KERNEL_OUTPUT_DIR = "."
 KERNEL_IMAGETYPE = "vmlinux"
 KERNEL_IMAGEDEST = "/tmp"
 
