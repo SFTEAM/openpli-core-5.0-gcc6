@@ -46,6 +46,7 @@ PLI_PLUGINS = " \
 	enigma2-plugin-picons-openatv-white28e_1.0+git6+4b1cb1c-r1_all.ipk \
 	enigma2-plugin-picons-openatv-white28e-dbg_1.0+git6+4b1cb1c-r1_all.ipk \
 	enigma2-plugin-picons-openatv-white28e-dev_1.0+git6+4b1cb1c-r1_all.ipk \
+	enigma2-plugin-extensions-piconmanager_2.2-20150329-r0_all.ipk \
 "
 
 do_install() {
