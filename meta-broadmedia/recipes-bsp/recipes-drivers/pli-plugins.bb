@@ -8,6 +8,13 @@ inherit deploy
 
 SRC_URI = "git://github.com/schleichdi2/plugins.git"
 
+EXTRA_OECONF = " \
+    BUILD_SYS=${BUILD_SYS} \
+    HOST_SYS=${HOST_SYS} \
+    STAGING_INCDIR=${STAGING_INCDIR} \
+    STAGING_LIBDIR=${STAGING_LIBDIR} \
+"
+
 ALLOW_EMPTY_${PN} = "1"
 
 S = "${WORKDIR}/git"
@@ -74,4 +81,3 @@ do_deploy() {
 }
 
 addtask do_deploy before do_package_write after do_package_write_ipk
-
