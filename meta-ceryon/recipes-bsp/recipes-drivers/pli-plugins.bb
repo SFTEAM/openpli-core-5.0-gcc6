@@ -4,6 +4,8 @@ LICENSE = "CLOSED"
 SRCREV = "${AUTOREV}"
 PR = "r1"
 
+inherit deploy
+
 SRC_URI = "git://github.com/schleichdi2/plugins.git"
 
 EXTRA_OECONF = " \
@@ -19,9 +21,10 @@ S = "${WORKDIR}/git"
 DEPLOY_DIR = "${TMPDIR}/deploy"
 
 PLI_PLUGINS = " \
-	enigma2-plugin-extensions-mediaportal_7.4.7_all.ipk \
+	enigma2-plugin-extensions-mediaportal_7.5.6_all.ipk.zip \
 	enigma2-plugin-extensions-seyirturk_sr456_all.ipk \
 	enigma2-plugin-extensions-turkvod_6.0_all.ipk \
+	enigma2-plugin-extensions-piconmanager_2.2-20150329-r0_all.ipk \
 	enigma2-plugin-picons-openatv-black13e_1.0+git4+85cfede-r1_all.ipk \
 	enigma2-plugin-picons-openatv-black13e-dbg_1.0+git4+85cfede-r1_all.ipk \
 	enigma2-plugin-picons-openatv-black13e-dev_1.0+git4+85cfede-r1_all.ipk \
