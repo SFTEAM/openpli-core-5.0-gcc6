@@ -4,6 +4,8 @@ LICENSE = "CLOSED"
 SRCREV = "${AUTOREV}"
 PR = "r1"
 
+inherit deploy
+
 SRC_URI = "git://github.com/schleichdi2/plugins.git"
 
 ALLOW_EMPTY_${PN} = "1"
