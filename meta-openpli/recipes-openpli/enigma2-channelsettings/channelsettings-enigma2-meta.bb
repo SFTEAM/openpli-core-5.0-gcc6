@@ -60,7 +60,4 @@ DEPENDS = " \
     enigma2-plugin-settings-gigablue-unity-media \
     enigma2-plugin-settings-gigablue-kabel-bw \
     enigma2-plugin-settings-gigablue-kabeldeutschland \
-    \
-    enigma2-plugin-settings-rytec-13e19e23e28e \
-    enigma2-plugin-settings-rytec-motor \
     "
