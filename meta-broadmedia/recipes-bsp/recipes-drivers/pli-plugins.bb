@@ -21,7 +21,7 @@ S = "${WORKDIR}/git"
 DEPLOY_DIR = "${TMPDIR}/deploy"
 
 PLI_PLUGINS = " \
-	enigma2-plugin-extensions-mediaportal_7.5.6_all.ipk.zip \
+	enigma2-plugin-extensions-mediaportal_7.5.6_all.ipk \
 	enigma2-plugin-extensions-seyirturk_sr456_all.ipk \
 	enigma2-plugin-extensions-turkvod_6.0_all.ipk \
 	enigma2-plugin-extensions-piconmanager_2.2-20150329-r0_all.ipk \
