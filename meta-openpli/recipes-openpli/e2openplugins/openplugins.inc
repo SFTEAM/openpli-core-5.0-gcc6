@@ -1,5 +1,5 @@
-SRC_URI = "git://github.com/E2OpenPlugins/e2openplugin-${MODULE}.git;protocol=git\
-            file://LICENSE.GPLv2"
+SRC_URI = "git://github.com/E2OpenPlugins/e2openplugin-${MODULE}.git;protocol=git"
+
 S="${WORKDIR}/git"
 
 SRCREV = "${AUTOREV}"
