@@ -10,7 +10,7 @@ IMAGE_CMD_ubi_prepend = " \
 	"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS = "\
-	${@bb.utils.contains("GST_VERSION", "1.0", "gstreamer1.0-libav", "gst-ffmpeg", d)} \
+	${@base_contains("GST_VERSION", "1.0", "gstreamer1.0-libav", "gst-ffmpeg", d)} \
 	miraclebox-dvb-modules-${MACHINE} \
 	kernel-vmlinux \
 	"
