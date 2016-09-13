@@ -15,7 +15,6 @@ DEPENDS = " \
 	enigma2-plugin-extensions-buienradar \
 	enigma2-plugin-extensions-changerootpassword \
 	enigma2-plugin-extensions-foreca \
-	enigma2-plugin-extensions-hetweer \
 	enigma2-plugin-extensions-meteoitalia2 \
 	enigma2-plugin-extensions-newsreader \
 	enigma2-plugin-extensions-nfsserver \
