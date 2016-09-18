@@ -94,6 +94,7 @@ ENIGMA2_OPTIONAL = " \
 	enigma2-plugin-extensions-blurayplayer \
 	enigma2-plugin-extensions-xmltvimport \
 	enigma2-plugin-extensions-youtube \
+	enigma2-plugin-extensions-openmultiboot \
 	enigma2-plugin-extensions-modifyplifullhd \
 	enigma2-plugin-extensions-refreshbouquet \
 	enigma2-plugin-systemplugins-mountmanager \
@@ -113,6 +114,7 @@ ENIGMA2_OPTIONAL = " \
 	packagegroup-openplugins \
 	${@bb.utils.contains("MACHINE_FEATURES", "blindscan-dvbs", "enigma2-plugin-systemplugins-satscan" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "dreambox", "", "enigma2-plugin-extensions-backupsuite", d)} \
+	${@bb.utils.contains('EXTRA_IMAGEDEPENDS', 'vuplus-tuner-turbo', 'enigma2-plugin-drivers-dvb-usb-turbo', '', d)} \
 	dvb-usb-drivers-meta \
 	cdtextinfo \
 	meta-enigma2-dvdburn \
