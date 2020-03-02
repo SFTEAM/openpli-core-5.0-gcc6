@@ -1,18 +1,18 @@
 [submodule "openembedded-core"]
 	path = openembedded-core
-	url = github.com/schleichdi2/openpli-core-5.0-gcc6/openembedded-core
+	url = github.com/SFTEAM/openpli-core-5.0-gcc6/openembedded-core
 [submodule "meta-openembedded"]
 	path = meta-openembedded
-	url = git://github.com/schleichdi2/openpli-core-5.0-gcc6/meta-openembedded
+	url = git://github.com/SFTEAM/openpli-core-5.0-gcc6/meta-openembedded
 [submodule "bitbake"]
 	path = bitbake
-	url = git://github.com/schleichdi2/openpli-core-5.0-gcc6/bitbake
+	url = git://github.com/SFTEAM/openpli-core-5.0-gcc6/bitbake
 [submodule "meta-openpli/recipes-openpli/e2openplugins"]
 	path = meta-openpli/recipes-openpli/e2openplugins
-	url = git://github.com/schleichdi2/openpli-core-5.0-gcc6/meta-openpli/recipes-openpli/e2openplugins
+	url = git://github.com/SFTEAM/openpli-core-5.0-gcc6/meta-openpli/recipes-openpli/e2openplugins
 [submodule "meta-openpli"]
 	path = meta-openpli
-	url = git://github.com/schleichdi2/openpli-core-5.0-gcc6/meta-openpli
+	url = git://github.com/SFTEAM/openpli-core-5.0-gcc6/meta-openpli
 [submodule "meta-openpli/recipes-openpli"]
 	path = meta-openpli/recipes-openpli
-	url = git://github.com/schleichdi2/openpli-core-5.0-gcc6/meta-openpli/recipes-openpli
+	url = git://github.com/SFTEAM/openpli-core-5.0-gcc6/meta-openpli/recipes-openpli
